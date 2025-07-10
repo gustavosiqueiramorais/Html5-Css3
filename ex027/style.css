@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    border: 20px solid black;
+    border-image-source: url('borda_decorada.png');
+    border-image-slice: 23;
+    border-image-repeat: repeat;
+}

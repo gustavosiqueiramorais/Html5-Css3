@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(153, 213, 171);
+}
+
+
+h1#principal{
+    color: #5aa411;
+    background-color: #39680a;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+h1{
+    color: rgb(90, 164, 17);
+    font-size: 40px;
+
+}
+
+h2{
+    color: darkgreen;
+}
+
+.Básico{
+    color: rgb(31, 192, 31);
+}
+
+.Intermediário{
+    color: yellow;
+}
+
+.Avançado{
+    color: red;
+}
