@@ -1,0 +1,35 @@
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: lightgrey;
+
+}
+
+tbody > tr:nth-child(even){
+    background-color: white;
+}
+
+caption{
+    background-color: rgba(128, 128, 128, 0.594);
+    font-weight: 800;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.numero{
+    text-align: right;
+}
