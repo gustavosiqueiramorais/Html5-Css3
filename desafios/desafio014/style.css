@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+    width: 650px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+thead{
+    text-align: center;
+    font-weight: 800;
+}
+
+td{
+    border: 2px solid black;
+}
+
+.sexo{
+    text-align: center;
+    font-weight: 800;
+}
