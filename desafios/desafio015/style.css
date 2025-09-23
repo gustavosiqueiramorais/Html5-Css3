@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+}
+
+thead{
+    text-align: center;
+    border: 2px solid black;
+    color: #fff;
+    background-color: #979797;
+
+}
+
+th{
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid black;
+}
+
+.nota{
+    text-align: center;
+}
