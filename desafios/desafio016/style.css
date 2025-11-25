@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cordefundo: #011640;
+    --azulclaro: #03318C;
+    --azulmedio: #022873;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cordefundo);
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+main > .conteudo{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 505px;
+    width: 409px;
+    background-repeat: no-repeat;
+    background-image: url(imagens/iphone.png);
+    background-size: contain;
+    
+}
+
+#telefone > iframe{
+    position: relative;
+    width: 178px;
+    height: 318px;
+    top: 50px;
+    left: 116px;
+}
+
+#redes-sociais{
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: var(--azulclaro);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 15%;
+    
+}
+
+
+
+#redes-sociais > button{
+    border-radius: 50%;
+    border-style: none;
+    width: 50px;
+    background-color: transparent;
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+
+}
+
+
+button > img{
+    width: 100%;
+    height: 100%;
+
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
