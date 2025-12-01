@@ -57,7 +57,12 @@ main > .conteudo{
     flex-direction: row;
     padding: 10px;
     gap: 15%;
+    transition: width 0.5s;
     
+}
+
+#redes-sociais:hover{
+    width: 500px;
 }
 
 
