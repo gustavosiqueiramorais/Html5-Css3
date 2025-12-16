@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+</style>
 <body>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="post">
         <label for="iestado">Selecione seu Estado</label>
         <select name="estado" id="iestado">
             <optgroup label="Região X">
@@ -24,19 +31,31 @@
                 <option value="RO">Roraima</option>
                 <option value="AC">Acre</option>
             </optgroup>
-            <option value="RS">Rio Grande do Sul</option>
-            <option value="PR">Paraná</option>
-            <option value="CE">Ceará</option>
-            <option value="PE">Pernambuco</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="AP">Amapá</option>
-            <option value="MA">Maranhão</option>
-            <option value="RD">Rondonia</option>
-            <option value="ES">Espírito Santo</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="SE">Sergipe</option>
+            <optgroup label="Região Z">
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="PR">Paraná</option>
+                <option value="CE">Ceará</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="AP">Amapá</option>
+                <option value="MA">Maranhão</option>
+                <option value="RD">Rondonia</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="SE">Sergipe</option>
+            </optgroup>
         </select>
+
+        <input type="text" list="Lprofissao" id="iprofissao">
+        <label for="iprofissao">Informe sua profissão</label>
+        <datalist id="Lprofissao">
+            <option value="DEV">Desenvolvedor</option>
+            <option value="FIS">Fisiculturista</option>
+            <option value="BMB">Bombeiro</option>
+        </datalist>
+        <label for="imsg">Digite sua mensagem</label>
+        <textarea name="msg" id="imsg"></textarea>
         <input type="submit" value="enviar">
     </form>
     
